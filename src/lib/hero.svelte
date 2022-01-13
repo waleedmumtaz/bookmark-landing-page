@@ -1,5 +1,4 @@
 <div>
-  Hero
   <!-- A Simple Bookmark Manager
 
   A clean and simple interface to organize your favourite websites. Open a new 

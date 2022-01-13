@@ -12,16 +12,36 @@
 
 <header>
   <nav class="relative">
-    <div class="flex justify-between items-center px-8 pt-10">
+    <div class="flex justify-between items-center px-8 md:px-32 pt-10 md:pt-0">
       <img src="/assets/logo-bookmark.svg" alt="bookmark logo" />
-      <button on:click={toggleNavigation}>
+      <button on:click={toggleNavigation} class="md:hidden">
         <img src="/assets/icon-hamburger.svg" alt="mobile menu" />
       </button>
+      <div class="hidden md:block">
+        <ul
+          class="flex justify-end items-center gap-16 uppercase tracking-widest"
+        >
+          <li class="hover:text-cstm-primary-soft-red">
+            <a href="/#">Features</a>
+          </li>
+          <li class="hover:text-cstm-primary-soft-red">
+            <a href="/#">Pricing</a>
+          </li>
+          <li class="hover:text-cstm-primary-soft-red">
+            <a href="/#">Contact</a>
+          </li>
+          <li
+            class="bg-cstm-primary-soft-red hover:bg-transparent hover:outline hover:outline-2 hover:outline-cstm-primary-soft-red text-white hover:text-cstm-primary-soft-red px-8 py-2 rounded-md"
+          >
+            <button class="uppercase">Login</button>
+          </li>
+        </ul>
+      </div>
     </div>
     {#if navIsOpen}
       <div
         transition:fade
-        class={`bg-cstm-neutral-dark-blue opacity-90 px-8 pt-10 absolute inset-0 min-h-screen ${navDisplay} flex flex-col justify-between`}
+        class={`bg-cstm-neutral-dark-blue opacity-90 px-8 pt-10 absolute inset-0 min-h-screen ${navDisplay} z-50 flex flex-col justify-between`}
       >
         <div>
           <div class="flex justify-between items-center pb-8">
