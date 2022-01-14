@@ -33,12 +33,4 @@
       <TabEasySharing />
     {/if}
   </div>
-
-  <!-- Features
-  
-  
-  
-  
-  
-   -->
 </div>

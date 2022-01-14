@@ -1,5 +1,5 @@
 <script>
-  // import DownloadExtension from './lib/download-extension.svelte'
+  import DownloadExtension from './lib/download-extension.svelte'
   // import Faqs from './lib/faqs.svelte'
   import Features from './lib/features.svelte'
   // import Footer from './lib/footer.svelte'
@@ -25,7 +25,7 @@
   <Header />
   <Hero />
   <Features />
-  <!-- <DownloadExtension />
-  <Faqs />
-  <Footer /> -->
+  <DownloadExtension />
+  <!-- <Faqs /> -->
+  <!-- <Footer /> -->
 </div>
