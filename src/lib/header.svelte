@@ -10,9 +10,11 @@
   }
 </script>
 
-<header>
+<header class="mb-20">
   <nav class="relative">
-    <div class="flex justify-between items-center px-8 md:px-32 pt-10 md:pt-0">
+    <div
+      class="flex justify-between items-center px-8 md:container md:mx-auto pt-10"
+    >
       <img src="/assets/logo-bookmark.svg" alt="bookmark logo" />
       <button on:click={toggleNavigation} class="md:hidden">
         <img src="/assets/icon-hamburger.svg" alt="mobile menu" />
