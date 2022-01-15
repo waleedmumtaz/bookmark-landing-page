@@ -3,7 +3,6 @@
 </script>
 
 <div>
-  Footer
   <ContactUs />
   <!-- Features
   Pricing
