@@ -11,7 +11,7 @@
         A clean and simple interface to organize your favourite websites. Open a
         new browser tab and see your sites load instantly. Try it for free.
       </p>
-      <div class="flex items-center gap-5">
+      <div class="flex justify-center items-center gap-5">
         <button
           class="bg-cstm-primary-soft-blue px-2 py-4 rounded-lg text-white"
         >
