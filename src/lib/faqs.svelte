@@ -53,24 +53,25 @@
 </script>
 
 <div class="mb-40 bgcstm">
-  <div class="px-8">
+  <div class="px-8 md:container md:mx-auto">
     <div class="text-center">
-      <h2 class="font-bold text-2xl">Frequently Asked Questions</h2>
-      <p class="text-cstm-neutral-grayish-blue mt-3">
+      <h2 class="font-bold text-2xl md:text-4xl">Frequently Asked Questions</h2>
+      <p class="text-cstm-neutral-grayish-blue mt-3 md:max-w-lg md:mx-auto">
         Here are some of our FAQs. If you have any other questions you’d like
         answered please feel free to email us.
       </p>
     </div>
 
     <!-- FAQs -->
-    <div class="mt-10">
+    <div class="mt-10 md:max-w-lg md:mx-auto">
+      <div class="md:border-b-2" />
       <!-- Question 1 -->
       <details>
         <summary
           on:click={() => {
             toggleFaq('questionOne')
           }}
-          class="flex justify-between items-center py-4 border-b-2"
+          class="flex justify-between items-center py-4 border-b-2 md:text-lg hover:text-cstm-primary-soft-red cursor-pointer"
         >
           What is Bookmark?
           <ArrowIcon
@@ -78,7 +79,7 @@
             iconStyles={arrowIconsStyles[0].styles}
           />
         </summary>
-        <p class="text-sm py-4 mr-5 leading-8">
+        <p class="text-sm md:text-base py-4 mr-5 leading-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
           tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis
           quam ornare mattis.
@@ -90,7 +91,7 @@
           on:click={() => {
             toggleFaq('questionTwo')
           }}
-          class="flex justify-between items-center py-4 border-b-2"
+          class="flex justify-between items-center py-4 border-b-2 md:text-lg hover:text-cstm-primary-soft-red cursor-pointer"
         >
           How can I request a new browser?
           <ArrowIcon
@@ -98,7 +99,7 @@
             iconStyles={arrowIconsStyles[1].styles}
           />
         </summary>
-        <p class="text-sm py-4 mr-5 leading-8">
+        <p class="text-sm md:text-base py-4 mr-5 leading-8">
           Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
           ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros
           aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
@@ -112,7 +113,7 @@
           on:click={() => {
             toggleFaq('questionThree')
           }}
-          class="flex justify-between items-center py-4 border-b-2"
+          class="flex justify-between items-center py-4 border-b-2 md:text-lg hover:text-cstm-primary-soft-red cursor-pointer"
         >
           Is there a mobile app?
           <ArrowIcon
@@ -120,7 +121,7 @@
             iconStyles={arrowIconsStyles[2].styles}
           />
         </summary>
-        <p class="text-sm py-4 mr-5 leading-8">
+        <p class="text-sm md:text-base py-4 mr-5 leading-8">
           Sed consectetur quam id neque fermentum accumsan. Praesent luctus
           vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula
           quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex
@@ -133,7 +134,7 @@
           on:click={() => {
             toggleFaq('questionFour')
           }}
-          class="flex justify-between items-center py-4 border-b-2"
+          class="flex justify-between items-center py-4 border-b-2 md:text-lg hover:text-cstm-primary-soft-red cursor-pointer"
         >
           What about other Chromium browsers?
           <ArrowIcon
@@ -141,7 +142,7 @@
             iconStyles={arrowIconsStyles[3].styles}
           />
         </summary>
-        <p class="text-sm py-4 mr-5 leading-8">
+        <p class="text-sm md:text-base py-4 mr-5 leading-8">
           Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat
           mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque
           non ut velit.

@@ -7,11 +7,13 @@
 </script>
 
 <div>
-  <div class="border-t-2 border-b-2">
-    <ul class="divide-y-2 text-center">
+  <div class="border-t-2 md:border-t-0 border-b-2 md:w-fit md:mx-auto">
+    <ul
+      class="divide-y-2 md:divide-y-0 text-center md:flex md:justify-center md:items-center md:gap-20"
+    >
       {#each tabItems as tabItem}
         <li
-          class="py-4 cursor-pointer"
+          class="py-4 cursor-pointer hover:text-cstm-primary-soft-red"
           on:click={() => {
             dispatch('tabChange', tabItem)
           }}

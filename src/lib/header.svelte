@@ -10,7 +10,7 @@
   }
 </script>
 
-<header class="mb-20">
+<header class="mb-40">
   <nav class="relative">
     <div
       class="flex justify-between items-center px-8 md:container md:mx-auto pt-10"
