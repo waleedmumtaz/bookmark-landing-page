@@ -13,7 +13,7 @@
   }
 </script>
 
-<div class="mb-20">
+<div class="mb-40">
   <div class="px-8">
     <div class="text-center mb-12">
       <h2 class="text-2xl font-bold">Features</h2>

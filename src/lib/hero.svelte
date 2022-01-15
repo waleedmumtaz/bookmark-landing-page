@@ -1,5 +1,5 @@
 <div>
-  <div class="text-center mb-20">
+  <div class="text-center mb-40">
     <img
       src="/assets/illustration-hero.svg"
       alt="hero illustration"

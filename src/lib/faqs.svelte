@@ -1,4 +1,4 @@
-<div class="mb-20">
+<div class="mb-40">
   <div class="px-8">
     <div class="text-center">
       <h2 class="font-bold text-2xl">Frequently Asked Questions</h2>

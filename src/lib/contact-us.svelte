@@ -5,7 +5,7 @@
   }
 </script>
 
-<div class="mb-20">
+<div>
   <div class="bg-cstm-primary-soft-blue text-white px-8 py-16 text-center">
     <div>
       <p class="uppercase text-sm tracking-widest">35,000+ already joined</p>

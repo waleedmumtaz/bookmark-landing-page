@@ -1,4 +1,4 @@
-<div class="px-8 mb-20">
+<div class="px-8 mb-40">
   <div class="text-center mb-20">
     <h2 class="font-bold text-2xl">Download the extension</h2>
     <p class="mt-3 text-cstm-neutral-grayish-blue">
