@@ -1,7 +1,16 @@
 <script>
+  let isEmailValid = true
+
   const validateEmail = (e) => {
     // Validate email
-    console.log('Here!')
+    const email = e.target.email.value
+
+    // check if email is valid
+    if (email.includes('@') && email.includes('.') && email.length > 5) {
+      isEmailValid = true
+    } else {
+      isEmailValid = false
+    }
   }
 </script>
 
@@ -11,17 +20,23 @@
       <p class="uppercase text-sm tracking-widest">35,000+ already joined</p>
       <h3 class="text-2xl mt-2">Stay up-to-date with what we’re doing</h3>
     </div>
-    <form on:submit|preventDefault={validateEmail} class="flex flex-col gap-5">
+    <form on:submit|preventDefault={validateEmail} class="flex flex-col">
       <input
         type="text"
         name="email"
         placeholder="Enter your email address"
-        class="placeholder-gray-500 w-full p-3 rounded-md mt-8"
+        class={`placeholder-gray-500 w-full p-3 rounded-md mt-8 text-black ${
+          !isEmailValid ? 'outline outline-2 outline-red-500 border-t-0' : ''
+        }`}
       />
-      <button
-        type="button"
-        class="bg-cstm-primary-soft-red w-full p-3 rounded-md"
+      <p
+        class={`bg-red-500 text-xs text-left px-3 py-1 italic ${
+          !isEmailValid ? 'visible' : 'invisible'
+        }`}
       >
+        Whoops, make sure it's an email
+      </p>
+      <button class="bg-cstm-primary-soft-red w-full mt-5 p-3 rounded-md">
         Contact Us
       </button>
     </form>
