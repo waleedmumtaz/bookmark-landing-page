@@ -5,11 +5,11 @@
       alt="feature 3 illustration"
       class="w-full pr-8"
     />
-    <div class="md:place-self-center px-8">
+    <div class="md:flex md:flex-col md:justify-center md:items-start">
       <h2 class="text-2xl md:text-3xl font-black mt-10 md:mt-0 my-3 md:mb-0">
         Share your bookmarks
       </h2>
-      <p class="text-cstm-neutral-grayish-blue md:py-5">
+      <p class="text-cstm-neutral-grayish-blue md:py-5 md:max-w-lg">
         Easily share your bookmarks and collections with others. Create a
         shareable link that you can send at the click of a button.
       </p>
