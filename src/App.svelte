@@ -21,11 +21,11 @@
   />
 </svelte:head>
 
-<div class="min-h-screen font-rubik">
+<main class="min-h-screen font-rubik">
   <Header />
   <Hero />
   <Features />
   <DownloadExtension />
   <Faqs />
   <Footer />
-</div>
+</main>
