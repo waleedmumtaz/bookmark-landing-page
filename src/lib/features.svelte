@@ -14,8 +14,8 @@
 </script>
 
 <div class="mb-40">
-  <div class="px-8 md:container md:mx-auto">
-    <div class="text-center mb-12">
+  <div>
+    <div class="text-center mb-12 px-8">
       <h2 class="text-2xl md:text-4xl font-bold">Features</h2>
       <p class="text-cstm-neutral-grayish-blue mt-5 md:max-w-lg md:mx-auto">
         Our aim is to make it quick and easy for you to access your favourite

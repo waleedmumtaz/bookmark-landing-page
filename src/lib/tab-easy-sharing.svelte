@@ -1,12 +1,11 @@
 <div class="my-20">
-  <div
-    class="text-center md:text-left md:container md:mx-auto md:grid md:grid-cols-2 md:place-items-center md:gap-20"
-  >
+  <div class="text-center md:text-left md:grid md:grid-cols-2 md:gap-20">
     <img
-      src="/assets/illustration-features-tab-3.svg"
-      alt="feature 1 illustration"
+      src="/assets/illustration-features-tab-3-new.svg"
+      alt="feature 3 illustration"
+      class="w-full pr-8"
     />
-    <div>
+    <div class="md:place-self-center px-8">
       <h2 class="text-2xl md:text-3xl font-black mt-10 md:mt-0 my-3 md:mb-0">
         Share your bookmarks
       </h2>

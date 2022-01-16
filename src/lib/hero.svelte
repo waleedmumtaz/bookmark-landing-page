@@ -1,13 +1,13 @@
 <div>
   <div
-    class="text-center md:text-left mb-40 md:grid md:grid-cols-2 md:place-items-center md:container md:mx-auto"
+    class="text-center md:text-left mb-40 md:grid md:grid-cols-2 md:place-items-center"
   >
     <img
-      src="/assets/illustration-hero.svg"
+      src="/assets/illustration-hero-new.svg"
       alt="hero illustration"
       class="w-full md:order-last"
     />
-    <div class="px-8">
+    <div class="px-8 md:max-w-xl">
       <h1 class="font-bold text-3xl md:text-5xl py-4 md:py-8">
         A Simple Bookmark Manager
       </h1>

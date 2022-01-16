@@ -44,9 +44,9 @@
       </div>
     </div>
   </footer>
-  <footer>
+  <div>
     <div
-      class="flex justify-center items-center gap-20 text-center pb-4 text-white"
+      class="flex flex-col md:flex-row justify-center items-center gap-0 md:gap-20 text-center pb-4 text-white"
     >
       <p>
         Challenge by <a
@@ -63,5 +63,5 @@
         >
       </p>
     </div>
-  </footer>
+  </div>
 </div>
